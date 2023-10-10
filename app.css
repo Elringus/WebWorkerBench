@@ -1,0 +1,76 @@
+body {
+  padding: 2em;
+}
+
+section.controls {
+  margin: 2em 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.inputs input[type="checkbox"] {
+  margin-right: 1em;
+}
+
+.inputs input[type="number"] {
+  width: 5em;
+  margin-left: 0.5em;
+  margin-right: 1em;
+}
+
+button {
+  font-size: 120%;
+  padding: 0.5em 1em;
+}
+
+table.results {
+  margin-bottom: 50px;
+  border-collapse: collapse;
+}
+
+table.results td {
+  text-align: right;
+}
+
+table.results td,
+table.results th {
+  padding: 0.5em 1em;
+}
+
+table.results tbody th {
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+table.results {
+  border: 1px solid #ccc;
+}
+
+table.results tr.scenario td,
+table.results tr.scenario th {
+  border-top: 1px solid #ccc;
+}
+
+table.results tr td.first {
+  border-left: 1px solid #ccc;
+}
+
+table.results tr td.last {
+  border-right: 1px solid #ccc;
+}
+
+table.results thead th.label {
+  text-align: left;
+}
+
+table.results thead th {
+  border: 1px solid #ccc;
+}
+
+.description {
+  color: #999;
+}
