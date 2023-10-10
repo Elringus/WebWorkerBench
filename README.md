@@ -1,0 +1,2 @@
+- Run `npx serve` under root directory
+- Open `http://localhost:3000` in a browser
